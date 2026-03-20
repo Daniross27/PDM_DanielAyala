@@ -148,16 +148,16 @@ class ejercicios {
 
     @Test
     fun gestionarRegistroAcademico() {
-        val a1 =Estudiante("Mariano López", 202601, "Programación de Dispositivos Móviles")
-        val a2 = Estudiante("Marian López", 202602, "Programación de Dispositivos Móviles")
-        val a3 =Estudiante("Marito López", 202603, "Programación de Dispositivos Móviles")
-        val a4 =Estudiante("María López", 202604, "Análisis Numérico")
-        val a5 = Estudiante("Marío López", 202605, "Análisis Numérico")
-        val a6 = Estudiante("Don López", 202606, "Análisis Numérico")
-        val a7 = Estudiante("Dona López", 202607, "Análisis Numérico")
+        val a1 =Estudiante("Jose Lara", 202601, "PDM")
+        val a2 = Estudiante("Ana López", 202602, "PDM")
+        val a3 =Estudiante("Joaquin Mendez", 202603, "PDM")
+        val a4 =Estudiante("María Gracia", 202604, "Análisis")
+        val a5 = Estudiante("Nancy Santillana", 202605, "Análisis")
+        val a6 = Estudiante("Kevin Franco", 202606, "Análisis")
+        val a7 = Estudiante("Daniel Rosales", 202607, "Análisis")
 
         val baseDeDatos = listOf(a1, a2, a3, a4, a5, a6, a7)
 
-        filtrarAlumnosPorCurso(baseDeDatos, "Programación de Dispositivos Móviles")
+        filtrarAlumnosPorCurso(baseDeDatos, "PDM")
     }
 }
